@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position: sticky;top: 0px;z-index: 9999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toglle" data-togole="colapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <a class="navbar-brand" href="https://hoover.sd54.org/" id="menu"><img src="https://hoover.sd54.org/wp-content/uploads/sites/20/2020/06/Hoover-1.png" id="logo" style="vertical-align: middle">hoover math and sience academy</a>
+            </button>
+        </div>
+
+        <div class="colapse navbar-colapse">
+            <ul>
+                <li><a href="#campusLife">campus life</a></li>
+                <li><a href="#new">new</a></li>
+                <li><a href="#acheivements">school acheivments</a></li>
+                <li><a href="#contactus">contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marqeeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            ***feel free to ask questions at gMail***
+        </marquee>
+    </div>
+    <img id="photo" src="https://assets.website-files.com/5e39e427d060216ecd84a18a/5e3c7beb9c2fdd7958752bd5_Interior%20Wall%20Sign-min.jpg">
+
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campusLife">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://lh3.googleusercontent.com/proxy/BXmNzgalWDW8BzMxGo_J8LGrjLN6w-lZ-gcsuSHLhgPSlMeG_1GdXapMdbfl8vPehdgCggto1lMv142U1fHNsKkX45fjHHNLmkP9Y2Q8ixFfIntoenEL9qqPfJ9sk7n5cWALvgGA8mvLNdkNLA">
+                    <h4 class="text-capitalize"><kbd>school building</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">hoover math and sience academy is named after herbet hoover who was a president of the us.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize">Was built in 1980</h5>
+                    <p class="text-muted text-left">the school library has a lot of books that you can read it also hass online books and more.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class=""><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left">or the gym,it is a place for movie nights and for gym lessons</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in school spelling bee
+                </h5>
+                <p>in the school spelling bee we keep on going till there was one person left then you go to the next level(school,district,state,nationals)</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>We play foot ball outside every reses</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>we have a sience compition every year and we all get meadals and can go in partners</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+        <h2 class="text-capitalize">what's new</h2>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 enviorment_li">
+                <h4>new school year!(2021)</h4>
+                <img src="https://fastly.4sqi.net/img/general/200x200/76223417_5vfj1KFqlmQa7E47p70BDzuhHfhtaTy17ou3JSrgSV4.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    the 2021 school year is going to be a weird year,as there is multiple new varients in the us.but for sure a lot of kids will be going to school becuase in district 54 it is mandatory or you will be doing online with a difrent teacher.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-danger col-lg-12 col-md-12 col-sm-12 col-xs-12 enviorment_li">
+                <h4>electronic atendence sheets</h4>
+                <img src="data:image/jpeg;base64,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" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    online atendence sheets help a lot-these help for the teacher to quickly mark eveorybody and send it the secertarys in a click,and are less prone to error when writing online.
+                </p>
+            </li>
+        </ul>
+
+    </div>
+        <div class="container">
+        <div class="page-headern col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactus">
+            <h2 class="text-capitilize">contact us</h2>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.508924163613!2d-88.12026828455403!3d42.032266079210224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa84de876a46b%3A0xa9487ae23eb357f8!2sHoover%20Math%20And%20Science%20Academy!5e0!3m2!1sen!2sus!4v1628113729404!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="deatails">
+            <img>
+            <h3>principal name:</h3>
+            <h4>ms.cassie zingler</h4>
+        </div>
+        <div class="contact_1">
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;gmail.com</h5>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
